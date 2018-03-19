@@ -1,0 +1,13 @@
+<html>
+<body >
+</body>
+<script type="text/javascript">
+	// iframe情况不处理
+	if(window.parent==window)
+	{
+		var param = document.location.search;
+		window.location.href='/portallogin' + param;
+	
+	}
+</script>
+</html>
