@@ -4,7 +4,7 @@ import org.dao.namePointxhDao;
 
 public class ReferNumber {
 
-    public static String Refer (String name){
+    public static String Refer(String name){
         namePointxhDao np = new namePointxhDao();
         String Number = np.namePointxh(name);
         return Number.substring(4,14);
